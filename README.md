@@ -15,7 +15,7 @@ clone this repository using
 git clone https://github.com/Taha-Zolfi/melk-fa.git
 ```
 
-then open your terminal and instal python packages by using
+then open your terminal and install python packages by using
 ```
 pip install django djangorestframework 
 ```
