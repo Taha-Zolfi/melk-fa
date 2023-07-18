@@ -3,7 +3,7 @@
 
 This project is a web application built using Python Django-rest-framework as the backend and React JS as the frontend. The purpose of this application is somthing like ebay or divar.com and we post and get data from backend using fetch 
 
-### this project has a lot to improve in frontend and i will improve it and if you wanna help me fell free to pull a request
+### this project has a lot to improve in frontend and i will improve it and if you wanna help me feel free to pull a request
 
 ![hey](https://i.ibb.co/ZM7jDxR/image.png)
 
