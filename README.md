@@ -5,7 +5,7 @@ This project is a web application built using Python Django-rest-framework as th
 
 ### this project has a lot to improve in frontend and i will improve it and if you wanna help me fell free to pull a request
 
-![hey](https://i.postimg.cc/bYWg8Qgf/image.png)
+![hey](https://i.ibb.co/ZM7jDxR/image.png)
 
 
 # how to use 
