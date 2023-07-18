@@ -1,0 +1,103 @@
+
+.login {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    align-items: center; 
+    margin-top: 4rem;
+} 
+.signin {
+    background-color: #f7f7f7;
+    padding: 1rem;
+    border-top-left-radius: 15px;
+    margin-right: 0.25rem;
+    font-weight: 700;
+    font-size: 4vh;
+    cursor: pointer;
+} 
+.signup { 
+    background-color: #f7f7f7;
+    padding: 1rem;
+    border-top-right-radius: 15px;
+    margin-left: 0.25rem;
+    font-weight: 700; 
+    font-size: 4vh;
+    cursor: pointer;
+} 
+
+.login .container 
+{   
+    border: solid;
+    border-color: #008c8b;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding: 1rem;
+}
+
+.container input {
+    width: 20vw;
+    height: 3vw;
+    border: 3px solid #01b4ae;
+    padding: 10px;
+    transition: box-shadow 0.2s ease-in-out;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    text-align: end;
+    font-size: x-large;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.container input:focus,textarea:focus{ 
+    outline: none;
+    box-shadow: 0px 0px 10px #01b4ae;
+} 
+.container input::placeholder { 
+    color: rgba(0, 0, 0, 0.486);
+    text-align: end;
+    font-size: x-large;
+    font-weight: 600;
+} 
+.container form { 
+    display: flex;
+    flex-direction: column;
+} 
+.container button{ 
+    background-color: #fff;
+    border: solid;
+    border-color: #01b4ae; 
+    border-width: 0.3vw;
+    border-radius: 13px;
+    color: #008c8b;
+    font-size: 2.5vw;
+    font-weight: 600; 
+    padding: 0.3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    cursor:pointer; 
+} 
+.container button:hover{
+    background-color:#01b4ae;
+    color:#fff;
+    transition-duration :330ms;
+} 
+.container button:not(:hover) {transition-duration :330ms; }
+
+.siniga { 
+    display: flex;
+    flex-direction:row ;
+    
+}
+.uppage {
+    display: none;
+}
+/* Add these styles to your login.css file */
+.inpage, .uppage {
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .hidden {
+    opacity: 0;
+    pointer-events: none;
+  }
+  

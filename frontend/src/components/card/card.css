@@ -1,0 +1,30 @@
+.card{
+    display: flex;
+    border-radius: 15px;
+    border: solid;
+    border-color: #01b4ae;
+    border-width: 0.25vw;
+    border-radius: 8px;
+    width: fit-content;
+    height: 20vh;
+    margin: 1rem;
+    padding-bottom: 2rem;
+}
+.matn {
+    text-align: end;
+    padding-left: 1rem;
+    padding-right: 0.5rem;
+    width: 10vw;
+    color: #000;
+}
+.matn p {
+    color: #000000b6;
+    font-weight: 500;
+
+}
+.image img {
+    border-top-left-radius:8px;
+    border-bottom-left-radius: 8px;
+    height: 20vh;
+}
+

@@ -1,0 +1,41 @@
+
+.newad {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    align-items: center; 
+    margin-top: 4rem;
+
+} 
+.newad .container {
+    border: solid;
+    border-color: #008c8b;
+    border-radius: 15px;
+    padding: 1rem;
+    display: flex;
+}
+.newad form {
+    display: flex;
+    flex-direction: column;
+}
+.adimage img{
+    width: 80vh;
+}
+.adtext h1 {
+    font-size: 8vh;
+}
+.adtext textarea {
+    border: 3px solid #01b4ae;
+    padding: 10px;
+    transition: box-shadow 0.2s ease-in-out;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    text-align: end;
+    font-size: x-large;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+.adtext form input {
+    width:auto
+}
